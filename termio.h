@@ -35,7 +35,7 @@ void tioGetNChars(
 		TioAppendingTerminator_e appendTerminator,
 		TioSendingEcho_e echo);
 
-uint32_t tioGetNDigitNumr(
+uint32_t tioGetNDigitNum(
 		uint8_t nOfDigits,
 		TioSendingEcho_e echo);
 

@@ -58,11 +58,11 @@ void tioGetNChars(
 
 /* uint32_t must be the same as
  * unsigned long int */
-uint32_t tioGetNDigitNumr(
+uint32_t tioGetNDigitNum(
 		uint8_t nOfDigits,
 		TioSendingEcho_e echo)
 {
 	char buf[nOfDigits + 1];
-	get_n_chars(buf, nOfDigits, TioDontAppendTerminator, echo);
+	tioGetNChars(buf, nOfDigits, TioDontAppendTerminator, echo);
 	return (uint32_t)strtoul(buf, NULL, 10);
 }
