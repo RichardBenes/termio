@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/amper/STM32Cube/Repository/STM32Cube_FW_F7_V1.16.0/**"
+            ],
+            "defines": [],
+            "compilerPath": "/home/amper/manually_installed/gcc-arm-none-eabi-9-2020-q2-update/bin//arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
